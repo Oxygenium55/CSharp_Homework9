@@ -29,7 +29,6 @@ int Akkerman(int m, int n)
 
 int N = GetNumber("Введите неотрицательное число N: ");
 int M = GetNumber("Введите неотрицательное число M: ");
-Akkerman(M, N);
 Console.Write($"A({M}, {N}) = {Akkerman(M, N)}");
 
 
